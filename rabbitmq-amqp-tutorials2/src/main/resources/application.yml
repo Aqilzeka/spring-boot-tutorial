@@ -1,0 +1,9 @@
+javainuse:
+  rabbitmq:
+    queue: message-queue
+    exchange: exchange
+    routing-key: route-key
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
